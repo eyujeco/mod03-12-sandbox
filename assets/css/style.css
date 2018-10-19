@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container,
+.container-fluid {
+	margin-bottom: 10px;
+}
+
+.col {
+	border: 1px solid white;
+	padding: 10px;
+}
+
+#warn {
+	width: 20%;
+}
+
+#suc {
+	width: 100%;
+}
+
+#info {
+	width: 75%;
+}
+
+.media {
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 0 10px;
+}
+
+.media img {
+	height: 150px;
+	width: auto;
+}
+
+.card {
+	height: auto;
+	width: 200px;
+	margin: 10px;	
+}

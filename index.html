@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="IE-Edge">
+	<title>Bootstrap Activity</title>
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary"> <!-- bs class -->
+			<a href="#" class="navbar-brand"><i class="far fa-hand-peace"></i> Company Name</a> <!-- bs class -->
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="#" class="nav-link"> Home </a></li>
+					<li class="nav-item"><a href="#" class="nav-link"> About </a></li>
+					<li class="nav-item"><a href="#" class="nav-link"> FAQs </a></li>
+					<li class="nav-item"><a href="#" class="nav-link"> Contact </a></li>					
+					<li class="nav-item"><a href="#" class="nav-link"> Cart
+						<span class="badge bg-danger">2</span>
+					 </a></li>					
+					
+					<li class="nav-item">
+						<div class="nav-link dropdown">
+							<button id="drop-button" class="btn btn-outline-success dropdown-toggle" type="button" data-toggle="dropdown">Register</button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Username</a>
+								<a href="#" class="dropdown-item">Password</a>
+								<a href="#" class="dropdown-item">Login</a>
+							</div>
+						</div>
+					</li>	
+
+				</ul>
+			</div>
+		</nav>
+
+		<nav>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">bahay</li>
+				<li class="breadcrumb-item">sumakay ng kotse</li>
+				<li class="breadcrumb-item active">caswynn building</li>
+			</ol>
+		</nav>
+
+		<div class="alert alert-danger">
+			<h2 class="alert-heading">Time to go back to CSS!</h2>
+			<small>I miss CSS</small>
+			<hr>
+			<p class="mb-3">Bootstrap is too easy</p>
+		</div>
+
+	</div> <!-- end of container -->
+
+
+	<div class="container-fluid">
+		<div class="progress">
+			<div id="warn" class="progress-bar bg-warning"></div>
+		</div>
+		<div class="progress">
+			<div id="suc" class="progress-bar bg-success"></div>
+		</div>
+		<div class="progress">
+			<div id="info" class="progress-bar bg-info progress-bar-striped progress-bar-animated"></div>
+		</div>
+	</div>
+
+	<div class="media">
+		<img class="mr-3" src="assets/images/side2.jpeg" alt="blank"></img>
+		<div class="media-body">
+			<h5 class="mt-0">Media Heading</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+	<ul class="list-group">
+		<li class="list-group-item">First</li>
+		<li class="list-group-item">Second</li>
+		<li class="list-group-item active">Third</li>
+		<li class="list-group-item">Fourth</li>
+	</ul>
+
+	<div class="card">
+		<img class="card-img-top" src="assets/images/side2.jpeg" alt="image">
+		<div class="card body">
+			<h6 class="card-body">Card Title</h6>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="#" class="btn btn-primary">Take me home</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="jumbotron">
+					<h1 class="display-1">This is my clean website</h1>
+					<hr class="my-3"></hr>
+					<p class="lead">This is created by Erika Yu Jeco who is powered by Spam</p>
+				</div>
+
+				<!-- <div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+				<div class="col col-12 col-md-1">col 1</div>
+
+				<div class="col col-12 col-md-8 col-lg-8">col 8</div>
+				<div class="col col-6 col-md-4 col-lg-4">col 4</div>
+
+				<div class="col col-6 col-md-4 col-lg-4">col 4</div>
+				<div class="col col-6 col-md-4 col-lg-4">col 4</div>
+				<div class="col col-6 col-md-4 col-lg-4">col 4</div>
+
+				<div class="col col-6 col-md-6 col-lg-6">col 6</div>
+				<div class="col col-6 col-md-6 col-lg-6">col 6</div>
+
+				<div class="col col-md-4">first</div>
+				<div class="col col-md-4 offset-md-4">offset 4 cols</div>
+
+				<div class="col col-md-3 offset-md-3">3 offset 3</div>
+				<div class="col col-md-3 offset-md-3">3 offset 3</div>
+
+				<div class="col col-md-6 offset-md-3">3 offset 6</div>
+				
+				<div class="col col-md-12">
+					<h6>first level</h6>
+					<div class="row">
+						<div class="col col-8 col-md-6">nested</div>
+						<div class="col col-4 col-md-6">nest</div>
+					</div>
+				</div> 
+
+			<div class="row">
+				<div class="col col-md-9 order-12">this is 9 first</div>
+				<div class="col col-md-3 order-1">this is 3 second</div>
+			</div>
+			-->
+
+
+			</div>
+
+
+			<div class="container-fluid">
+				<div class="btn-group" role="group" aria-label="Basic example">
+				  <button type="button" class="btn btn-success">Left</button>
+				  <button type="button" class="btn btn-secondary">Middle</button>
+				  <button type="button" class="btn btn-secondary">Middle</button>
+				  <button type="button" class="btn btn-secondary">Middle</button>
+				  <button type="button" class="btn btn-danger">Right</button>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="basic-addon1">@</span>
+					  </div>
+					  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+					</div>
+
+					<div class="input-group mb-3">
+					  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+					  <div class="input-group-append">
+					    <span class="input-group-text" id="basic-addon2">@example.com</span>
+					  </div>
+					</div>
+
+					<label for="basic-url">Your vanity URL</label>
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+					  </div>
+					  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+					</div>
+
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text">$</span>
+					  </div>
+					  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+					  <div class="input-group-append">
+					    <span class="input-group-text">.00</span>
+					  </div>
+					</div>
+
+					<div class="input-group">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text">With textarea</span>
+					  </div>
+					  <textarea class="form-control" aria-label="With textarea"></textarea>
+					</div>
+
+					<nav>
+						<ul class="pagination">
+							<li class="page-item"><a class="page-link" href="#">Back</a></li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item active"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">4</a></li>
+							<li class="page-item"><a class="page-link" href="#">5</a></li>
+							<li class="page-item"><a class="page-link" href="#">Next</a></li>
+						</ul>
+					</nav>
+
+					<form>
+						<div class="form-group">
+							<label for="username">Username: </label>
+							<input id="username" class="form-control" type="text" name="username"></input>
+						</div>
+						<div class="form-group">
+							<label for="textarea">Comments: </label>
+							<textarea id="text-area" class="form-control" rows="3" placeholder="Comments Section"></textarea>
+						</div>
+					</form>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+<!-- jquery first then popper then bootstrap js -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<!-- external bootstrap css -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
